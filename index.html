@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+        body {
+            background-color: #a4a4a4;
+        }
+        div {
+            width: 800px;
+            margin: 0 auto;
+            background-color: black;          
+        }
+        
+        .spotify {
+            height: 50px;
+            width: 50px;
+        }
+        .header {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .right-ref {
+            float: right;
+            font-size: 15px;
+            color: grey;
+            justify-content: center;
+        }
+        .content {
+            background-color: #24db4e;
+            box-sizing: padding-box;
+            height: 542px;
+        }
+        a {
+            text-decoration: none;
+            padding: 0;
+        }
+        .sptf {
+            display: block;
+            width: 800px;
+            height: 400px;
+        }
+        .motivation {
+            font-family: 'Muli', sans-serif;
+            text-align: center;
+            font-size: 40px;
+            background-color: #24db4e;
+            padding: 20px 0;
+            color: white;
+        }
+        .description {
+            background-color: #24db4e;
+            text-align: right;
+            width: 370px;
+            padding-left: 15px;
+            font-size: 25px;
+            margin: 0;
+        }
+        .btn1{
+            margin-top: 30px;
+            float: right;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            line-height: 45px;
+            color: #24db4e;
+            background-color: white;
+            font-size: 20px;
+            font-family: 'Muli', sans-serif;
+        }
+        .description_p {
+            background-color: #24db4e;  
+            color: white;
+            margin: auto;
+        }
+        .teleph_img {
+            height: 450px;
+            width: 300px;
+            padding-left: 50px ;
+        }
+        .application{
+            background-color: white;
+        }
+        .download {
+            color: grey;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            padding-top: 25px;
+            padding-bottom: 20px;
+        }
+        .description_p2 {
+            text-align: center;
+            font-size: 15px;
+            color: #778899;
+            font-family: arial, 'helvetica neue', helvetica, sans-serif;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 1.5;
+        }
+        .running {
+            width: 300px;
+            height: 250px;
+            padding-left: 25px;
+            
+        }
+        .table_placing {
+            padding: 35px 25px 0 25px;
+        }
+        .li_img{
+            width: 15px;
+            padding-right: 5px;
+        }
+        .tr_list {
+            padding-bottom: 5px;
+            display: block;
+            font-family: 'Lato', sans-serif;
+            color: #24db4e;
+        }
+        .tb_functions {
+            padding-left: 75px;
+            display: block;
+        }
+        .main_func {
+            font-family: 'Roboto', sans-serif; 
+            color:#686868; 
+            font-size: 20px; 
+            padding-bottom: 15px;
+        }
+        .btn2 {
+            width: 140px;
+            height: 40px;
+            text-align: center;
+            background-color: #24db4e;
+            color: white;
+            font-family: 'Muli', sans-serif;
+            line-height: 35px;
+            margin-top: 10px;
+            
+        }
+        .p_intro {
+            text-align: center;
+            color: #7f7f7f;
+            font-size: 25px;
+            font-family: 'Roboto', sans-serif;
+            padding-top: 35px;
+            padding-bottom: 20px;
+        }
+        .prepare {
+            display: block;
+            width: 700px;
+            height: 400px;
+            margin: 0 auto;
+        }
+        .left_table {
+            width: 400px;
+            font-family: arial, 'helvetica neue', helvetica, sans-serif;
+            padding: 30px 30px;
+        }
+        .td_position {
+            padding-bottom: 25px;
+            
+        }
+        .headers_design {
+            padding-bottom: 10px;
+            color: #7f7f7f;
+        }
+        .img_features {
+            width: 330px;
+            height: 425px;
+            float: right;
+            display: block;
+        }
+        .p_style {
+            color: #999999;
+            font-size: 17px;
+        }
+        .img_size {
+            padding-top: 20px;
+            width: 200px;
+            height: 330px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+        }
+        .platforms {
+            background-color: #24db4e;
+        }
+        .platforms_blocks {
+            margin: 40px 20px;
+            width: 200px;
+            height: 50px;
+            
+        }
+        .img_size_platforms {
+            width: 30px;
+            height: 30px;
+            display: block;
+            margin: 0 auto;
+            
+            
+        }
+        .inner_div {
+            width: auto;
+            padding: 10px 0;
+        }
+        .inner_div2 {
+            width: 200px;
+            background-color: #24db4e;
+            margin-top: 30px;
+            margin-right: 10px;
+            margin-left: 10px;
+            height: 400px;
+        }
+        .img_plan{
+            display: block;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+        .table_of_contents {
+            color: white;
+            font-family: arial, serif;
+            font-size: 25px;
+            display: block;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .btn_buy {
+            width: 100px;
+            height: 40px;
+            background-color: white;
+            display: block;
+            font-family: arial, serif;
+            font-size: 25px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 20px;
+            padding-top: 10px;
+        }
+        .img_running {
+            width: 180px;
+            height: 193px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span ><img class="spotify" src="img/images/9.png"></span>
+        <p class="right-ref"><a style="color:grey;" href="https://www.spotify.com/us/">View in browser</a></p>
+    </div>
+    <div>
+        <a href="https://www.youtube.com/watch?v=PBoz2XigTFA" target="_blank"><img class="sptf" src="img/images/sptf.png"  border="0" alt="Пример"></a>
+    </div>
+    <div class="content">
+        <div class="motivation">
+            I'm with you, anywhere
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <div class="description">
+                        <p class="description_p">
+                            The best music listening app. 
+                            Save music to your playlist and customize it as you wish.
+                            
+                        </p>
+                        <a href="https://www.spotify.com/us/" class="btn1">Download now</a>
+                    </div>
+                </td>
+                <td>
+                    <img src="img/images/3.png" class="teleph_img">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="application">
+        <p class="download">Download app for the best experience.</p>
+        <p class="description_p2">Spotify gives you instant access to millions of songs – from old favorites to the latest hits. Just hit play to stream anything you like.</p>
+    </div>
+    <div>
+        <table class = "table_placing">
+            <tr>
+                <td>
+                    <img src="img/images/8.png" class="running">
+                </td>
+                <td>
+                    <table class="tb_functions">
+                        <tr class="tr_list">
+                            <td>
+                                <h4 class="main_func">Main features of the application:</h4>
+                            </td>
+                        </tr>
+                        <tr class="tr_list">
+                            <td>
+                                <img src="img/images/14.png" class="li_img" alt="">
+                            </td>
+                            <td>
+                                <span>Listen everywhere.</span>
+                            </td>
+                        </tr>
+                        <tr class="tr_list">
+                            <td>
+                                <img src="img/images/14.png" class="li_img" alt="">
+                            </td>
+                            <td>
+                                <span>Unlimited, ad-free music.</span>
+                            </td>
+                        </tr>
+                        <tr class="tr_list">
+                            <td>
+                                <img src="img/images/14.png" class="li_img" alt="">
+                            </td>
+                            <td>
+                                <span>Download music & listen offline.</span>
+                            </td>
+                        </tr>
+                        <tr class="tr_list">
+                            <td>
+                                <img src="img/images/14.png" class="li_img" alt="">
+                            </td>
+                            <td>
+                                <span>Premium sounds better.</span>
+                            </td>
+                        </tr>
+                        <tr class="tr_list">
+                            <td>
+                                <img src="img/images/14.png" class="li_img" alt="">
+                            </td>
+                            <td>
+                                <span>Retrospective viewing of running.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://www.spotify.com/us/" class="btn2" style="float: left;">Learn more</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p class="p_intro">Video introduction</p>
+    </div>
+    <div >
+        <a href="https://www.youtube.com/watch?v=PBoz2XigTFA" target="_blank"><img class="prepare" src="img/images/intro.jpg"  border="0" alt="Пример"></a>
+    </div>
+    <div>
+        <p class="p_intro">Screenshots</p>
+        <p class="description_p2">.</p>
+    </div>
+    
+    <div>
+        <table style="margin: 0 auto;">
+            <tr>
+                <td>
+                    <img src="img/images/4.jpg" class="img_size" alt="">
+                </td>
+                <td>
+                    <img src="img/images/2.jpg" class="img_size" alt="">
+                </td>
+                <td>
+                    <img src="img/images/1.jpg" class="img_size" alt="">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="platforms">
+        <div class="motivation" style="font-size: 30px;">
+            Download the App
+        </div>
+        <p class="description_p2" style="color: white;">Get free premium today!.</p>
+        <table style="margin: 0 auto;">
+            <tr>
+                <td>
+                    <div class="platforms_blocks">
+                        <div class="inner_div">
+                            <img src="img/images/17.png" class="img_size_platforms" alt="">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="platforms_blocks">
+                        <div  class="inner_div">
+                            <img src="img/images/6.png" class="img_size_platforms" alt="">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="platforms_blocks">
+                        <div class="inner_div">
+                            <img src="img/images/10.png" class="img_size_platforms" alt="">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p class="p_intro">Choose the plan</p>
+        <p class="description_p2">After 1 month of free premium you can choose next plans</p>
+    </div>
+    <div>
+        <table style="margin: 0 auto;">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="inner_div2">
+                            <img src="img/images/5.png" class="img_plan" alt="">
+                            <span class="table_of_contents">
+                                Individual
+                            </span>
+                            <span class="table_of_contents" style="font-size: 45px;">
+                                $5
+                            </span>
+                            <p class="table_of_contents" style="font-size: 17px;">
+                              
+                            </p>
+                            <span class="btn_buy">
+                                <a href="https://www.spotify.com/us/" target="_blank" style="color: #24db4e;"></a>
+                            </span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="inner_div2">
+                            <img src="img/images/11.png" class="img_plan" alt="">
+                            <span class="table_of_contents"> 
+                                Duo
+                            </span>
+                            <span class="table_of_contents" style="font-size: 45px;">
+                                $10
+                            </span>
+                            <p class="table_of_contents" style="font-size: 17px;">
+                                
+                            </p>
+                            <span class="btn_buy">
+                                <a href="https://www.spotify.com/us/" target="_blank" style="color: #24db4e;"></a>
+                            </span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="inner_div2">
+                            <img src="img/images/16.png" class="img_plan" alt="">
+                            <span class="table_of_contents">
+                                Family
+                            </span>
+                            <span class="table_of_contents" style="font-size: 45px;">
+                                $15
+                            </span>
+                            <p class="table_of_contents" style="font-size: 17px;">
+                               
+                            </p>
+                            <span class="btn_buy"> 
+                                <a href="https://www.spotify.com/us/" target="_blank" style="color: #24db4e;"></a>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+   <div>
+        <p class="p_intro">Recent posts</p>
+   </div>
+   <div style="font-family: Arial, Helvetica, sans-serif;">
+        <table style="padding: 50px; ">
+            <tr style="padding-bottom: 30px;">
+                    <td>
+                        <img src="img/images/13.jpg"  alt="" class="img_running">
+                    </td>
+                    <td style="padding-left: 15px;">
+                        <div style="width: auto; padding-bottom: 15px;">
+                            <h3 style="color: #666666; ">
+                                The best music for run
+                            </h3>
+                            <span style="color: #999999; font-size: 13px; ">
+                                10 September, 2017
+                            </span>
+                        </div>
+
+                        <p style="color: #999999; padding-bottom: 10px;">
+                            Spotify has transformed the way people access and enjoy music. Today, millions of people in 79 countries and territories have access to more than 50 million tracks, whenever and wherever they want. We are transforming the music industry by moving from a "transaction-based" experience of buying and owning audio content to an "access-based" model allowing users to stream on demand.
+                        </p>
+                        <a href="https://www.spotify.com/us/" target="_blank" style="color: #999999; text-decoration: underline;">Read More +</a>
+                    </td>
+            </tr>
+        </table>
+        <table style="padding: 0 50px 20px;">
+            <tr>
+                <td style="padding: 0 6px;">
+                    <div style="width: auto; padding-bottom: 10px;">
+                        <h3 style="color: #666666; ">
+                            Singer on the run with great north run song
+                        </h3>
+                        <span style="color: #999999; font-size: 13px; ">
+                            29 August, 2017
+                        </span>
+                    </div>
+
+                    <p style="color: #999999; padding-bottom: 10px;">
+                       Your audience listens in real-time moments throughout the day.
+                    </p>
+                    <a href="https://www.spotify.com/us/" target="_blank" style="color: #999999; text-decoration: underline;">Read More +</a>
+                </td>
+                <td style="padding: 0 5px;">
+                    <div style="width: auto; padding-bottom: 10px;">
+                        <h3 style="color: #666666; ">
+                            Understand the impact
+                        </h3>
+                        <span style="color: #999999; font-size: 13px; ">
+                            30 August, 2017
+                        </span>
+                    </div>
+
+                    <p style="color: #999999; padding-bottom: 10px;">
+                        The most rewarding thing is when you see people grow.
+                    </p>
+                    <a href="https://www.spotify.com/us/" target="_blank" style="color: #999999; text-decoration: underline;">Read More +</a>
+                </td>
+                <td style="padding: 0 5px;">
+                    <div style="width: auto; padding-bottom: 15px;">
+                        <h3 style="color: #666666; ">
+                            To see them taking on more responsibility and realizing what’s important. 
+                        </h3>
+                        <span style="color: #999999; font-size: 13px; ">
+                            10 September, 2017
+                        </span>
+                    </div>
+
+                    <p style="color: #999999; padding-bottom: 10px;">
+                        This happens at Spotify, every day.
+                    </p>
+                    <a href="https://www.spotify.com/us/" target="_blank" style="color: #999999; text-decoration: underline;">Read More +</a>
+                </td>
+        </tr>
+        </table>
+        <table style="padding-left: 50px; padding-right: 50px; padding-bottom: 20px;">
+            <tr>
+                <td>
+                    <div style="width: auto; padding-bottom: 15px;">
+                        <h3 style="color: #666666; ">
+                           Tell your brand’s story on Spotify
+                        </h3>
+                        <span style="color: #999999; font-size: 13px; ">
+                            10 September, 2017
+                        </span>
+                    </div>
+
+                    <p style="color: #999999; padding-bottom: 10px;">
+                        Reach an engaged audience.
+                         Your audience listens in real-time moments throughout the day. Learn how they stream on Spotify, and how to connect with them in the right context.
+                    </p>
+                    <a href="https://www.spotify.com/us/" target="_blank" style="color: #999999; text-decoration: underline;">Read More +</a>
+                </td>
+                <td>
+                    <img src="img/images/15.jpg" alt="" style="width: 220px; height: 250px; padding-left: 20px;">
+                </td>
+            </tr>
+        </table>
+    </div>
+   
+     <div>
+    <table  style="background-color:#9AAEA6;" width="800" cellspacing="0" cellpadding="0" bgcolor="#9aaea6" align="center">
+        <tbody> 
+            <tr style="border-collapse:collapse;"> 
+                <td align="left" style="padding:20px;Margin:0;">  
+                    <table  align="left" style="border-spacing:0px;float:left;"> 
+                        <tbody> 
+                            <tr style="border-collapse:collapse;"> 
+                        <td width="270" align="left" style="padding:0; margin:0;"> 
+                        <table width="100%" border-collapse:collapse;border-spacing:0px;>
+                        <tbody>
+                            <tr style="border-collapse:collapse;"> 
+                            <td  align="center" style="padding:0;Margin:0;padding-bottom:10px;"> 
+                            <h3 style="font-family:arial, 'helvetica neue', helvetica,sans-serif; font-size:20px; font-style:normal; font-weight:normal; color:#FFFFFF;">Connect</h3>
+                            </td>
+                        </tr> 
+                        <tr style="border-collapse:collapse;"> 
+                            <td align="center" style="padding:0;Margin:0;"> 
+                                <table style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"> 
+                                    <tbody> 
+                                        <tr style="border-collapse:collapse;"> 
+                                            <td valign="top" align="center" style="padding:0;Margin:0;padding-right:10px;"> 
+                                                <img src="img/images/21.png" alt="" style="width: 30px;height: 30px;">
+                                            </td> 
+                                            <td valign="top" align="center" style="padding:0;Margin:0;padding-right:10px;"> 
+                                                <img src="img/images/19.png" alt="" style="width: 30px;height: 30px;">
+                                            </td> 
+                                            <td valign="top" align="center" style="padding:0;Margin:0;padding-right:10px;"> 
+                                                <img src="img/images/22.png" alt="" style="width: 30px;height: 30px;">
+                                            </td> 
+                                            <td valign="top" align="center" style="padding:0;Margin:0;"> 
+                                                <img src="img/images/20.png" alt="" style="width: 30px;height: 30px;">
+                                            </td> 
+                        </tr> 
+                        </tbody> 
+                    </table> 
+                </td> 
+            </tr> 
+        </tbody> 
+    </table> 
+</td> 
+</tr> 
+</tbody> 
+</table>  
+    <table class="es-right" cellspacing="0" cellpadding="0" align="right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right;"> 
+        <tbody> 
+            <tr style="border-collapse:collapse;"> 
+                <td width="270" align="left" style="padding:0;Margin:0;"> 
+                    <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"> 
+                        <tbody> 
+                            <tr style="border-collapse:collapse;"> 
+                                <td align="center" style="padding:0;Margin:0;padding-bottom:10px;"> 
+                                    <h3 style="Margin:0;line-height:120%;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:20px;font-style:normal;font-weight:normal;color:#FFFFFF;">Or call</h3> 
+                                </td> 
+                            </tr> 
+                            <tr style="border-collapse:collapse;"> 
+                                <td  align="center" style="padding:0;Margin:0;padding-top:5px;padding-bottom:10px;"> 
+                                    <p style="font-size:14px;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:150%;color:#FFFFFF;">
+                                        <span style="font-size:16px;line-height:150%;">
+                                            <span style="line-height:150%;">8 (800) 555-35-35</span>
+                                        </span> 
+                                    </p> 
+                                </td> 
+                            </tr> 
+                        </tbody> 
+                    </table> 
+                </td> 
+            </tr> 
+        </tbody> 
+    </table>  
+</td> 
+</tr> 
+<tr style="border-collapse:collapse;">
+     <td style="padding:0;Margin:0;background-color:#FFFFFF;" bgcolor="#ffffff" align="left"> 
+        <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"> 
+            <tbody> 
+                <tr style="border-collapse:collapse;"> 
+                    <td width="560" valign="top" align="center" style="padding:0;Margin:0;"> 
+                        <table width="100%" cellspacing="0" cellpadding="0" > 
+                            <tbody> 
+                                <tr style="border-collapse:collapse;"> 
+                                    <td class="es-m-txt-с" esdev-links-color="#666666" align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px;"> 
+                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:150%;color:#666666;">
+                                            <span style="font-size:12px;line-height:150%;">Copyright © 2017 Run, All rights reserved.</span>
+                                        </p> 
+                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:150%;color:#666666;">
+                                            <span style="font-size:12px;line-height:150%;">You are recieving this email because you have visited our site or asked us about regular newslatter</span>
+                                        </p> 
+                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:150%;color:#666666;">
+                                            <a target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-size:12px;text-decoration:underline;color:#666666;line-height:150%;" href="https://stripo.email/">Unsubscribe</a>
+                                        </p> 
+                                    </td> 
+                                </tr> 
+                            </tbody>
+        </table> 
+    </td> 
+</tr> 
+</tbody> 
+</table> 
+</td> 
+</tr> 
+</tbody> 
+</table>
+</div> 
+</body>
+</html>
